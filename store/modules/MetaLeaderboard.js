@@ -1,6 +1,5 @@
 const state = {
-  moduleTwoArr: [],
-  moduleTwoField: null,
+  leaderboards: []
 }
 
 const getters = {}

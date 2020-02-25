@@ -1,6 +1,5 @@
 const state = {
-  moduleOneArr: [],
-  moduleOneField: null,
+  entries: [],
 }
 
 const getters = {}

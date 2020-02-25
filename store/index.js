@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 
-import module1 from './modules/module1'
+import Leaderboard from './modules/Leaderboard'
+import LeaderboardEntry from './modules/LeaderboardEntry'
 
 Vue.use(Vuex);
 
@@ -9,8 +10,8 @@ const debug = process.env.NODE_ENV !== 'production'
 
 export default new Vuex.Store({
   modules: {
-    module1,
-    module2,
+    Leaderboard,
+    LeaderboardEntry,
   },
   strict: debug,
 })
